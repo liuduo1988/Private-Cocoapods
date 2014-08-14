@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.author             = { "刘铎" => "liuduo@rrlt.com" }
   s.source       = { :git => "git@github.com:liuduo1988/PodTestClient.git", :tag => "0.0.1" }
   s.source_files  = "PodTestClient/*.{h,m}", "Core.framework"
+  s.frameworks = 'Core'
   s.requires_arc = true
 end
